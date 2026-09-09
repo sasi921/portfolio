@@ -1,28 +1,44 @@
-# Sasidhar Reddy Velkuri — Developer Portfolio
+# Sasidhar Reddy Velkuri — Portfolio
 
-Full-Stack Software Engineer focused on building reliable web applications, cloud-native systems, data products, AI-powered developer experiences, and database systems.
+Modern personal portfolio for **Sasidhar Reddy Velkuri**, a Full Stack Software Engineer focused on AI-powered applications, cloud engineering, backend systems, and modern web experiences.
 
-## Featured Projects
+## Portfolio direction
 
-### University Management Database
-Oracle SQL database design project covering student records, advisors, academic records, departments, courses, enrollment, financial aid, events, internships, faculty, and alumni. Includes EER modeling, 3NF relational design, schema/data scripts, and 15+ SQL query examples using joins, aggregation, subqueries, `UNION`, `MINUS`, and `INTERSECT`.
+The current site uses a clean, Apple-inspired visual system with:
 
-[View University Management Database](projects/University-Management-Database/)
+- Minimal white interface and strong typography
+- Blue interaction accents
+- Responsive mobile and desktop layouts
+- Subtle scroll-based reveal animations
+- Clear sections for work, experience, skills, education, certifications, and contact
 
-### Procedural Racetrack Environment in Houdini
-Procedural 3D environment project using Houdini to generate terrain, a customizable racetrack, barriers, track markings, and scattered forest assets.
+## Highlights
 
-[View Procedural Racetrack](projects/Procedural-Racetrack-Houdini/)
+- 4 years of software engineering experience
+- 50+ production web pages developed and optimized
+- RAG-based AI work reducing manual search effort by 60%
+- Full-stack engineering across React, TypeScript, Python, Java, Node.js, FastAPI, and Spring Boot
+- Cloud and DevOps experience with AWS, Azure, Docker, Kubernetes, Jenkins, and CI/CD
 
-## What I work with
+## Featured work
 
-- **Frontend:** React, TypeScript, JavaScript, HTML, CSS
-- **Backend:** Python, Java, Spring Boot, PHP, REST APIs
-- **Cloud & DevOps:** AWS, Azure, Docker, Kubernetes, CI/CD
-- **Data:** SQL, PostgreSQL, Oracle, PySpark, ETL pipelines
-- **AI/ML:** RAG, LLM applications, agents, vector search, LangChain
+The portfolio highlights:
+
+1. **RAG-Based AI Assistant** — LangChain, LLMs, vector embeddings, Gradio
+2. **LLM Evaluation Framework** — structured prompting, hallucination and verification analysis
+3. **Property Management System** — responsive full-stack, database-connected application
+4. **AWS CI/CD Automation** — Jenkins, Nexus, SonarQube, AWS, Slack monitoring
+
+## Run locally
+
+Open `index.html` directly in a browser, or serve the directory using any static HTTP server.
 
 ## Connect
 
-- GitHub: [@sasi921](https://github.com/sasi921)
-- LinkedIn: [Sasidhar Reddy Velkuri](https://www.linkedin.com/in/sasidharreddyv)
+- GitHub: https://github.com/sasi921
+- LinkedIn: https://www.linkedin.com/in/sasidharreddyv
+- Email: sasidhar.velkuri@gmail.com
+
+---
+
+© 2026 Sasidhar Reddy Velkuri
