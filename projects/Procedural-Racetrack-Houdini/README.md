@@ -2,8 +2,6 @@
 
 A procedural 3D environment project created in **Houdini Non-Commercial**. The scene generates a customizable racetrack integrated with terrain, barriers, track markings, and procedurally scattered trees.
 
-![Final procedural racetrack environment](images/final-racetrack.jpg)
-
 ## Overview
 
 The goal of this project is to demonstrate Houdini's node-based procedural modeling workflow by building a racetrack environment whose major components can be adjusted without rebuilding the scene from scratch.
@@ -45,48 +43,41 @@ Auxiliary curves, Add, and Resample nodes generate repeating track and boundary 
 
 Terrain, racetrack, barriers, and trees are combined with Merge nodes. A Normal node improves shading, and smoothing is applied where needed. Cameras, lights, and materials are prepared for rendering, with Karma listed as the intended Houdini render engine in the project report.
 
-## Repository Structure
+## Project Files
+
+The original project source supplied for this work contains:
 
 ```text
-Procedural-Racetrack-Houdini/
-├── README.md
-├── racetrack.hipnc
-├── geo/
-│   ├── barrier.bgeo
-│   ├── firtreeA.bgeo
-│   ├── firtreeB.bgeo
-│   └── tire.bgeo
-├── images/
-│   └── final-racetrack.jpg
-└── docs/
-    └── Project-Final-Report.md
+racetrack.hipnc
+geo/
+├── barrier.bgeo
+├── firtreeA.bgeo
+├── firtreeB.bgeo
+└── tire.bgeo
 ```
 
-## Files
+The `.hipnc` and `.bgeo` files are Houdini binary files. The connected GitHub publishing interface used for this update supports reliable text-file writes but not direct binary attachment transfer, so the source binaries are maintained as a separate source package rather than risking corruption.
 
-- **`racetrack.hipnc`** — Main Houdini Non-Commercial project file
-- **`geo/barrier.bgeo`** — Barrier geometry asset
-- **`geo/firtreeA.bgeo`** — Fir tree geometry asset A
-- **`geo/firtreeB.bgeo`** — Fir tree geometry asset B
-- **`geo/tire.bgeo`** — Tire geometry asset
-- **`docs/Project-Final-Report.md`** — Project documentation converted to Markdown for easy GitHub viewing
+The GitHub-viewable documentation is available at:
 
-## How to Open
+- [`docs/Project-Final-Report.md`](docs/Project-Final-Report.md)
+
+## Opening the Source Package
 
 1. Install a compatible version of **SideFX Houdini Non-Commercial / Apprentice**.
-2. Download or clone this repository.
+2. Extract the supplied source package.
 3. Open `racetrack.hipnc` in Houdini.
-4. Keep the `geo/` directory with the project so the referenced `.bgeo` assets can be resolved.
-5. If asset paths differ on your system, update the relevant File nodes in Houdini.
+4. Keep the `.bgeo` assets alongside the project in the expected `geo` location.
+5. If file paths differ on your system, update the relevant Houdini File nodes.
 
 ## Results
 
-The completed scene contains:
+The completed environment includes:
 
-- A customizable procedural racetrack with markings
-- Natural terrain containing hills and valleys
-- Barriers aligned procedurally to the track
-- A forest generated through procedural scattering and instancing
+- A customizable procedural racetrack with lane markings
+- Natural terrain with hills and valleys integrated around the track
+- Barriers procedurally aligned with the racetrack edges
+- Forest areas generated through point scattering and geometry instancing
 
 ## Skills Demonstrated
 
@@ -98,4 +89,4 @@ The completed scene contains:
 
 ---
 
-This project was developed as an academic 3D procedural modeling project and demonstrates a modular approach to building reusable racetrack environments in Houdini.
+This academic project demonstrates a modular approach to creating reusable racetrack environments in Houdini.
