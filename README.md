@@ -29,6 +29,12 @@ The portfolio highlights:
 3. **Property Management System** — responsive full-stack, database-connected application
 4. **AWS CI/CD Automation** — Jenkins, Nexus, SonarQube, AWS, Slack monitoring
 
+## Standalone project repositories
+
+- [University Management Database](https://github.com/sasi921/University-Management-Database) — Oracle SQL, relational modeling, EER/3NF, joins, subqueries, aggregation, and set operations
+- [Procedural Racetrack Houdini](https://github.com/sasi921/Procedural-Racetrack-Houdini) — procedural terrain, racetrack modeling, barriers, geometry instancing, and forest generation in Houdini
+- [Customer Segmentation & Predictive Analysis](https://github.com/sasi921/Customer-Segmentation-Predictive-Analysis) — customer clustering, PCA, RFM analysis, recommendations, and predictive modeling
+
 ## Run locally
 
 Open `index.html` directly in a browser, or serve the directory using any static HTTP server.
