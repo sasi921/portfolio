@@ -1,43 +1,44 @@
-# Sasidhar Reddy Velkuri — Portfolio
+# Sasidhar Reddy Velkuri — Engineering Portfolio
 
-Modern personal portfolio for **Sasidhar Reddy Velkuri**, a Full Stack Software Engineer focused on AI-powered applications, cloud engineering, backend systems, and modern web experiences.
+A modern engineering portfolio showcasing work across **full-stack development, AI/ML, cloud engineering, backend systems, databases, and data products**.
 
-## Portfolio direction
+## Portfolio focus
 
-The current site uses a clean, Apple-inspired visual system with:
+The site is designed to give recruiters and engineering teams a concise view of my technical range, selected projects, professional experience, and current areas of focus.
 
-- Minimal white interface and strong typography
-- Blue interaction accents
-- Responsive mobile and desktop layouts
-- Subtle scroll-based reveal animations
-- Clear sections for work, experience, skills, education, certifications, and contact
+### What the portfolio highlights
 
-## Highlights
+- AI agents, RAG applications, and LLM workflows
+- Full-stack applications and backend services
+- Cloud and DevOps practices across AWS and Azure
+- Data engineering and analytics work
+- Database systems and normalization projects
+- Responsive, accessible front-end implementation
 
-- 4 years of software engineering experience
-- 50+ production web pages developed and optimized
-- RAG-based AI work reducing manual search effort by 60%
-- Full-stack engineering across React, TypeScript, Python, Java, Node.js, FastAPI, and Spring Boot
-- Cloud and DevOps experience with AWS, Azure, Docker, Kubernetes, Jenkins, and CI/CD
+## Featured repositories
 
-## Featured work
+| Project | Description |
+|---|---|
+| [100 Days of AI Agents](https://github.com/sasi921/100-Days-of-AI-Agents) | Practical AI-agent engineering from prompting and tools through RAG, MCP, evaluation, and production patterns |
+| [Almadatum Website](https://github.com/sasi921/Almadatum-Website) | Full-stack alumni management platform with database-backed workflows, dashboards, analytics, and engagement features |
+| [Customer Segmentation & Predictive Analysis](https://github.com/sasi921/Customer-Segmentation-Predictive-Analysis) | RFM analysis, PCA, K-Means clustering, recommendation logic, and predictive modeling |
+| [RDBMS Normalizer](https://github.com/sasi921/RDBMS-Normalizer) | Python-based relational-schema normalization, dependency analysis, decomposition, and SQL generation |
+| [Recommendation Systems using SGD](https://github.com/sasi921/Resolving-Sparsity-in-Recommendation-Systems-using-SGD) | Matrix factorization and SGD techniques for sparse recommendation systems |
+| [University Management Database](https://github.com/sasi921/University-Management-Database) | Oracle SQL, EER modeling, 3NF design, joins, subqueries, aggregation, and set operations |
+| [Procedural Racetrack Houdini](https://github.com/sasi921/Procedural-Racetrack-Houdini) | Procedural terrain, racetrack generation, geometry instancing, barriers, and vegetation in Houdini |
 
-The portfolio highlights:
+## Technology areas
 
-1. **RAG-Based AI Assistant** — LangChain, LLMs, vector embeddings, Gradio
-2. **LLM Evaluation Framework** — structured prompting, hallucination and verification analysis
-3. **Property Management System** — responsive full-stack, database-connected application
-4. **AWS CI/CD Automation** — Jenkins, Nexus, SonarQube, AWS, Slack monitoring
-
-## Standalone project repositories
-
-- [University Management Database](https://github.com/sasi921/University-Management-Database) — Oracle SQL, relational modeling, EER/3NF, joins, subqueries, aggregation, and set operations
-- [Procedural Racetrack Houdini](https://github.com/sasi921/Procedural-Racetrack-Houdini) — procedural terrain, racetrack modeling, barriers, geometry instancing, and forest generation in Houdini
-- [Customer Segmentation & Predictive Analysis](https://github.com/sasi921/Customer-Segmentation-Predictive-Analysis) — customer clustering, PCA, RFM analysis, recommendations, and predictive modeling
+**Languages:** Python, Java, TypeScript, JavaScript, SQL, PHP  
+**Frontend:** React, Angular, HTML, CSS  
+**Backend:** Spring Boot, FastAPI, Node.js, REST APIs  
+**AI/ML:** LangChain, LLMs, RAG, vector search, PyTorch, TensorFlow  
+**Cloud & DevOps:** AWS, Azure, Docker, Kubernetes, Jenkins, CI/CD  
+**Data:** PostgreSQL, SQL Server, Oracle, PySpark, ETL workflows
 
 ## Run locally
 
-Open `index.html` directly in a browser, or serve the directory using any static HTTP server.
+Open `index.html` directly in a browser or serve the repository with any static HTTP server.
 
 ## Connect
 
